@@ -1,0 +1,52 @@
+[
+  {
+    "name": "name",
+    "label": "Name",
+    "type": "text"
+  },
+  {
+    "name": "age",
+    "label": "Age",
+    "type": "number"
+  },
+  {
+    "name": "maritalStatus",
+    "label": "Marital Status",
+    "type": "select",
+    "options": ["Married", "Not Married"]
+  },
+  {
+    "name": "birthplace",
+    "label": "Birthplace",
+    "type": "select",
+    "options": [
+      "Prefer not to say",
+      "Serbia",
+      "Russia",
+      "Poland",
+      "Germany",
+      "Netherlands"
+    ]
+  },
+  {
+    "name": "test",
+    "label": "Did you test adding a new value into the JSON?",
+    "type": "select",
+    "options": ["Yes", "No"]
+  },
+  {
+    "name": "hobbies",
+    "label": "Hobbies",
+    "type": "checkbox",
+    "allowAll": true,
+    "options": [
+      "Dance",
+      "Cooking",
+      "Gardening",
+      "Drawing",
+      "Glassblowing",
+      "Welding",
+      "Rock climbing"
+    ]
+  }
+]
