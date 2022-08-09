@@ -19,7 +19,6 @@ const Home: NextPage = () => {
       <GeneratedForm
         elements={jsonFile}
         onSubmit={(values) => {
-          console.log(values);
           alert(JSON.stringify(values));
         }}
       />
